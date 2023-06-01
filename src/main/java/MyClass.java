@@ -19,6 +19,6 @@ public class MyClass {
 
         List<Integer> i3  =   i2.stream().sorted().map(x->x+5).collect(Collectors.toList());
 
-        System.out.println(i3);
+        System.out.println(5);
     }
 }
